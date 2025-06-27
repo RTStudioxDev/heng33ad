@@ -1,0 +1,58 @@
+/* รีเซ็ตและตั้งค่าพื้นฐาน */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Prompt', sans-serif;
+  background: linear-gradient(to bottom, #e3f2fd, #b3e5fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* กล่องหลักที่จัดทุกอย่างให้อยู่กลาง */
+.main-container {
+  text-align: center;
+}
+
+/* ข้อความหลัก */
+.headline {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #1565c0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.headline .blue {
+  color: #0d47a1;
+}
+
+/* ปุ่มเริ่มต้นใช้งาน */
+.start-button {
+  background-color: white;
+  padding: 14px 30px;
+  border-radius: 28px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  box-shadow: 0 0 10px 3px #ffee58;
+  transition: all 0.3s ease;
+}
+
+.start-button:hover {
+  box-shadow: 0 0 14px 5px #ffff8d;
+  transform: translateY(-2px);
+}
+
+/* ไอคอนแชท (ถ้ามี) */
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 48px;
+  height: auto;
+}
